@@ -1,0 +1,41 @@
+{
+  "name": "output-style",
+  "version": "1.0.0",
+  "description": "Custom output styles for Claude Code with project and global install support",
+  "main": "scripts/install.js",
+  "bin": {
+    "output-style": "./bin/cli.js"
+  },
+  "scripts": {
+    "install:project": "node scripts/install.js --project",
+    "install:global": "node scripts/install.js --global",
+    "postinstall": "node scripts/install.js --postinstall"
+  },
+  "files": [
+    ".claude",
+    "solutions-engineer.md",
+    "scripts",
+    "bin",
+    "install.sh",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smith89k/output-style.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "output-style",
+    "output-styles",
+    "ai",
+    "anthropic",
+    "solutions-engineer"
+  ],
+  "author": "smith89k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smith89k/output-style/issues"
+  },
+  "homepage": "https://github.com/smith89k/output-style#readme"
+}
