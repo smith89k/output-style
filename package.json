@@ -13,6 +13,7 @@
   },
   "files": [
     ".claude",
+    "lead-engineer.md",
     "solutions-engineer.md",
     "scripts",
     "bin",

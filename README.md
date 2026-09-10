@@ -6,7 +6,14 @@ Custom output styles for [Claude Code](https://docs.anthropic.com/en/docs/agents
 
 ## 🎭 Available Output Styles
 
-### 1. Solutions Engineer (`solutions-engineer`)
+### 1. Lead Engineer (`lead-engineer`)
+Communicates with technical authority, root-cause depth, and clarity—tailored for substantial refactorings and complex bug fixes.
+- **The Breakthrough Opening**: Immediate, energetic declaration of victory.
+- **Root-Cause Narrative**: Clearly contrasts how legacy code behaved vs. what the modern framework expects, explaining the exact cascade failure.
+- **Quantified "Heavy Lifting"**: Quantifies impact with exact counts (controllers, views, lines migrated, calls patched).
+- **Verifiable Happy Path**: Provides exact instructions and endpoints so you can test and confirm the fix immediately.
+
+### 2. Solutions Engineer (`solutions-engineer`)
 Translates complex, technical engineering jargon into clear, reassuring client-facing explanations with zero fluff.
 - **Zero Conversational Filler**: Direct output without conversational preambles.
 - **Structured Format**: Includes **The Translation** (action, risk reduction, direct benefit) and **Jargon Breakdown** (term by term).
