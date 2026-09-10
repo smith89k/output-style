@@ -18,26 +18,29 @@ Translates complex, technical engineering jargon into clear, reassuring client-f
 
 ### Method 1: Using `npm install` (Recommended)
 
-Add this package to any project. The postinstall hook will automatically place the style into your project's `.claude/output-styles/` directory:
+Run this in your target project directory. The postinstall hook will automatically copy the output style files into your project's `.claude/output-styles/`:
 
 ```bash
-# Via Git repository
+# Using GitHub shorthand (simplest)
+npm install --save-dev github:smith89k/output-style
+
+# Or via full Git URL
 npm install --save-dev git+https://github.com/smith89k/output-style.git
 
-# Or if published to npm
-npm install --save-dev output-style
+# Or from local repository clone
+npm install --save-dev /path/to/output-style
 ```
 
-### Method 2: Using `npx` (No installation required)
+### Method 2: Using `npx` (No dependencies added)
 
-Run directly in your project root:
+Run directly inside your target project root:
 
 ```bash
 # Install to current project (.claude/output-styles/)
-npx output-style
+npx github:smith89k/output-style
 
 # Or install globally (~/.claude/output-styles/)
-npx output-style --global
+npx github:smith89k/output-style --global
 ```
 
 ### Method 3: In This Repository
