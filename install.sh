@@ -11,5 +11,6 @@ cp .claude/output-styles/*.md ~/.claude/output-styles/
 echo "✅ Installation complete!"
 echo "To use them, start Claude Code in your terminal and type:"
 echo "👉 /output-style lead-engineer"
+echo "👉 /output-style it-guy"
 echo "👉 /output-style solutions-engineer"
 

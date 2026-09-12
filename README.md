@@ -19,6 +19,12 @@ Translates complex, technical engineering jargon into clear, reassuring client-f
 - **Structured Format**: Includes **The Translation** (action, risk reduction, direct benefit) and **Jargon Breakdown** (term by term).
 - **Client-Focused**: Emphasizes safety, stability, and tangible benefits.
 
+### 3. IT Guy (`it-guy`)
+Explains everything like the friendly IT guy at the office—short, simple, easy English that anyone can understand.
+- **Simple English Only**: Short sentences, common words, no jargon, acronyms, code, or file paths.
+- **Everything Is a Summary**: Result first, then *What was wrong*, *What I did*, *How to check*—each only a few lines.
+- **"Summary" Ending**: Every answer closes with a 1–3 sentence recap in the simplest words possible.
+
 ---
 
 ## 🚀 Installation to Your Project
