@@ -44,6 +44,21 @@ npm install --save-dev git+https://github.com/smith89k/output-style.git
 npm install --save-dev /path/to/output-style
 ```
 
+**Using pnpm or yarn?** Use your project's own package manager instead of `npm`:
+
+```bash
+# pnpm
+pnpm add -D github:smith89k/output-style
+
+# pnpm 10+ blocks dependency postinstall scripts by default — approve it once:
+pnpm approve-builds
+
+# yarn
+yarn add -D github:smith89k/output-style
+```
+
+If you'd rather not add a dependency, use Method 2 (`npx`) below — it works with any package manager.
+
 ### Method 2: Using `npx` (No dependencies added)
 
 Run directly inside your target project root:
