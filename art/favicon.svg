@@ -11,7 +11,7 @@
   <rect width="512" height="512" rx="112" fill="url(#bgO)"/>
   <rect x="3" y="3" width="506" height="506" rx="109" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="6"/>
 
-<g transform="translate(256 262) scale(1.2) translate(-256 -256)">
+<g transform="translate(256 262) scale(1.18) translate(-256 -256)">
 
   <!-- speech bubble + tail -->
   <path d="M150 300 L150 404 L224 318 Z" fill="url(#bubO)"/>
