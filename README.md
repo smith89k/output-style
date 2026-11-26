@@ -1,9 +1,22 @@
-<p align="center">
-  <a href="https://github.com/smith89k/output-style">
-    <img src="https://raw.githubusercontent.com/smith89k/output-style/main/.github/assets/banner.png"
-         alt="Output Style — custom output styles for Claude Code, installed in one command" width="920">
-  </a>
-</p>
+<div align="center">
+
+<img src="art/logo.svg" width="112" height="112" alt="Output Style logo">
+
+# Output Style
+
+**Three ready-made voices for Claude Code: a lead engineer, a solutions engineer, and the friendly IT guy.**
+
+<a href="https://docs.anthropic.com/en/docs/claude-code/output-styles"><img src="https://img.shields.io/badge/Claude%20Code-output%20styles-D97757" alt="Claude Code output styles"></a>
+<a href="https://github.com/smith89k/output-style#readme"><img src="https://img.shields.io/badge/install-npx-D97757" alt="Install with npx"></a>
+<a href="https://github.com/smith89k/output-style#readme"><img src="https://img.shields.io/badge/styles-3-8A8A8A" alt="Three styles"></a>
+<a href="https://github.com/smith89k/output-style/blob/main/package.json"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
+
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="art/banner-dark.png">
+  <img src="art/banner-light.png" alt="Output Style: one npx command copies three output styles into .claude/output-styles, and Claude Code answers in the IT Guy voice." width="100%">
+</picture>
 
 Custom output styles for [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) with automatic installation support for local projects and global configurations.
 
