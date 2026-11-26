@@ -1,4 +1,9 @@
-# Claude Code Output Styles
+<p align="center">
+  <a href="https://github.com/smith89k/output-style">
+    <img src="https://raw.githubusercontent.com/smith89k/output-style/main/.github/assets/banner.png"
+         alt="Output Style — custom output styles for Claude Code, installed in one command" width="920">
+  </a>
+</p>
 
 Custom output styles for [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code) with automatic installation support for local projects and global configurations.
 
